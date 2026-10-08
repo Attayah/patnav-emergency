@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Only this page's own files, and only the emergency-view function. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://querazgfxbqrkulnrdsu.supabase.co; base-uri 'none'; form-action 'none'" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="referrer" content="no-referrer" />
+<title>PatNav Emergency Care Profile</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1 id="heading">Emergency Care Profile</h1>
+    <p class="subtitle" id="status" role="status" aria-live="polite">Loading…</p>
+    <div id="sections"></div>
+    <button id="retry" type="button" hidden>Try again</button>
+    <p class="notice">This page is shared temporarily and expires automatically. It contains only information the person approved for emergency sharing.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

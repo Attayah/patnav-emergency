@@ -1,0 +1,52 @@
+/* Same calm palette as the app. Sizes are in rem so the page follows the
+   phone's text-size setting; nothing scrolls sideways. */
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 1.5rem 1rem 3rem;
+  background: #F7F5F2;
+  color: #25302C;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.wrap { max-width: 40rem; margin: 0 auto; }
+h1 { font-size: 1.375rem; margin: 0 0 0.25rem; }
+.subtitle { color: #66726B; font-size: 0.875rem; margin: 0 0 1.5rem; }
+.card {
+  background: #FFFFFF;
+  border: 1px solid #E4E0DA;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.card h2 { font-size: 1rem; margin: 0 0 0.25rem; }
+.card .updated { color: #66726B; font-size: 0.75rem; margin: 0 0 0.75rem; }
+.card .empty { color: #66726B; font-size: 0.875rem; margin: 0; }
+.item { border-top: 1px solid #E4E0DA; padding-top: 0.625rem; margin-top: 0.625rem; }
+.item:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+.item .title { font-weight: 600; font-size: 0.9375rem; }
+.item .detail { color: #4F5A54; font-size: 0.875rem; margin-top: 0.125rem; white-space: pre-wrap; }
+.tag {
+  display: inline-block;
+  font-size: 0.6875rem;
+  color: #7A4F22;
+  background: #F7F5F2;
+  border: 1px solid #E4E0DA;
+  border-radius: 999px;
+  padding: 0.125rem 0.5rem;
+  margin-top: 0.5rem;
+}
+button {
+  min-height: 2.75rem;
+  padding: 0 1.25rem;
+  font: inherit;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: #2F6B5E;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+.notice { font-size: 0.8125rem; color: #66726B; margin-top: 2rem; text-align: center; }
